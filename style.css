@@ -1,0 +1,133 @@
+body{
+	background-color: #4E646A;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+  }
+
+header{
+  padding: 20px 0;
+}  
+
+#logo{
+  float: left;
+  position: relative;
+  left: 10%;
+  right: 80%;
+  height: 64px;
+}
+
+.container{
+  position: relative;
+  width: 100%;
+	margin: 0 auto;
+  height: 64px;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+  background: #00334F;
+
+  }
+
+nav{
+  position:absolute;
+  left: 50%;
+  right: 40px;
+	top:0px;
+	text-align: center;
+  }
+
+nav li{
+  display: inline-flex;
+  margin: 10px 0 0 0px;
+
+
+  }
+
+nav a{
+  display: block;
+  flex-direction:row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  left: 70%;
+  right: 50%;
+  top: 0%;
+  bottom: 0%;
+  background: #00334F;
+  border: none;
+  color: #FFF;
+  text-decoration: none;
+  font-family: sans-serif;
+  margin: 0;
+  text-align: center;
+  transition: all 0.5s;
+  }
+
+nav a:hover{
+	background: #79CECE;
+	border-color: red;
+  }
+
+#noticias{
+   
+  width: 70%;
+  }
+
+#empresas{
+  border:1px solid black;
+  
+  width: 25%;
+  }
+
+#banner{
+  width: 100%;
+  }
+
+#titulo{
+  text-align: left;  
+  margin: 30px 0px 0px 170px;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 100%;
+  color: #FFFFFF;
+}  
+.card{
+    display: inline-block;
+    
+  }
+.card-2{
+  display: inline-block;
+  
+ }
+
+#card{
+  margin: 50px 20px 20px 20px; 
+}
+
+footer{
+  background-color: #00334F; 
+}
+#rodape{
+  color: white;
+  text-align:left;
+  margin: 30px 0px 0px 100px;
+}
+
+
+.rodaimg{
+  width: 112px;
+  height: 30px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  color: white;
+}
+  
+ 
+
+
+  
+
