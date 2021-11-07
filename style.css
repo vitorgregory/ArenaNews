@@ -69,33 +69,95 @@ nav a:hover{
 	border-color: red;
   }
 
-#noticias{
-   
-  width: 70%;
-  }
+footer{
+  background-color: #00334F;
+  display: inline-block; 
+  margin: 1em;
+}  
 
-#empresas{
-  
-  
-  width: 25%;
-  }
+#rodape{
+  height: 30px;
+  color: white;
+  text-align:left;
+  text-decoration: none;
+  padding: 10px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+}
+
+.rodaimg{
+  width: 112px;
+  padding: 10px;
+}
+#rodape2{
+  text-align: center;
+  text-decoration:none;
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 100%;
+  color: white;
+}
+
+
 
 #banner{
   width: 100%;
+}
+
+.principal{
+  display:inline-table;
+  width: 100%;
+}
+
+
+
+#noticias{ 
+  display: inline-block;
+  width: 70%;
+}
+
+.empresas{
+  width: 30%;
+  display: inline-block;
+  vertical-align: top;
   }
+
+#empresa{
+  width: 100%;
+  margin-top: 0px; 
+  display: flex;
+} 
+
 
 #titulo{
   text-align: left;  
-  margin: 30px 0px 0px 170px;
+  margin: 30px 0px 50px 170px;
   font-weight: bold;
   font-size: 40px;
   line-height: 100%;
   color: #FFFFFF;
-}  
+} 
+#titulo2{
+  vertical-align: top;
+  text-align: left;  
+  margin: 30px 0px 50px 0px;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 100%;
+  color: #FFFFFF;
+
 .card{
     display: inline-block;
-    
-  }
+}
+
+.card a:hover{
+  background: #FFF
+  
+}
 .card-2{
   display: inline-block;
   
@@ -105,29 +167,5 @@ nav a:hover{
   margin: 50px 20px 20px 20px; 
 }
 
-footer{
-  background-color: #00334F; 
-}
-#rodape{
-  color: white;
-  text-align:left;
-  margin: 30px 0px 0px 100px;
-}
 
-
-.rodaimg{
-  width: 112px;
-  height: 30px;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 150%;
-  color: white;
-}
-  
- 
-
-
-  
 
