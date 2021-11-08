@@ -82,8 +82,6 @@ nav ul li:hover ul{
   display:block;
 }
 
-
-
 .footer{
   background-color: #00334F;
   display: inline-table; 
@@ -96,7 +94,8 @@ nav ul li:hover ul{
   width: 20%;
   height: 150px;
   margin: 20px 0 0 30px;
-}
+  text-decoration: none;
+  }
 
 .rodaimg{
   position:relative;
@@ -108,9 +107,9 @@ nav ul li:hover ul{
   top:-150px;
 }
 #rodape{
+  text-decoration:none;
   color: white;
   text-align:left;
-  text-decoration: none;
   padding: 10px;
   font-family: Roboto;
   font-style: normal;
@@ -202,7 +201,11 @@ nav ul li:hover ul{
 
  }
 
-
+#disney{
+  position: relative;
+  width: 940px;
+  margin: 0 0 50px 160px ;
+}
 
 
 
