@@ -1,0 +1,42 @@
+header{
+  margin: 0;
+  padding:0;
+}
+
+ul{
+  position: relative;
+  margin: 0;
+  padding: 0;
+  background:black;
+}
+
+ul li{
+  display: inline-block;
+  }
+
+ul li a{
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding: 15px;
+}
+
+ul li a:hover{
+  background: #79CECE;
+}
+
+ul ul{
+   position: absolute;
+   display: none;
+   min-width: 100px;
+   background:black;
+}
+
+ul ul li{
+  display: block;
+  background: black;
+}
+
+ul li:hover ul{
+     display: block;
+}

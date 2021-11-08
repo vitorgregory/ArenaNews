@@ -5,9 +5,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>Arcade News</title>
-    <link href="style.css" rel="stylesheet">
+    
     <link rel="stylesheet" href="reset.css">
-    <link href="https://fonts.google.com/specimen/Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" >
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
   </head>
   <body>
     <header>
@@ -15,7 +18,7 @@
           <h3><img id="logo" src="./assets/logo.png"></h3>
           <nav>  
           <ul>
-            <li><a href="#">consoles</a></li>
+            <li><a href="./pagina/console.html">consoles</a></li>
             <li><a href="noticias.html">novidades</a></li>
             <li><a href="#">review</a></li>
             <li><a href="#">comunidade</a></li>
@@ -40,39 +43,43 @@
       <div class="empresas">
         <p id="titulo2">Empresas</p>
         <ul id="empresa"> 
-          <li><a href="https://www.ea.com/pt-br"><img src="./assets/logoempresas/EA.png"></a></li>
-          <li><a href="https://www.playstation.com/pt-br/"><img src="./assets/logoempresas/playstation.png"></a></li>
+          <li id="itemempresa" ><a href="https://www.ea.com/pt-br"><img src="./assets/logoempresas/EA.png"></a></li>
+          <li id="itemempresa"><a href="https://www.playstation.com/pt-br/"><img src="./assets/logoempresas/playstation.png"></a></li>
         </ul> 
         <ul id="empresa">  
-          <li><a href="https://www.epicgames.com/store/pt-BR/"><img src="./assets/logoempresas/epicgames.png"></a></li>
-          <li><a href="https://www.xbox.com/pt-BR/microsoft-store"><img src="./assets/logoempresas/xbox.png"></a></li>
+          <li id="itemempresa"><a href="https://www.epicgames.com/store/pt-BR/"><img src="./assets/logoempresas/epicgames.png"></a></li>
+          <li id="itemempresa"><a href="https://www.xbox.com/pt-BR/microsoft-store"><img src="./assets/logoempresas/xbox.png"></a></li>
         </ul>
         <ul id="empresa">
-          <li><a href="https://play.google.com/store?hl=pt_BR&gl=US"><img src="./assets/logoempresas/playstore.png"></a></li>
-          <li><a href="https://store.steampowered.com/games/?l=brazilian"><img src="./assets/logoempresas/steam.png"></a></li>
+          <li id="itemempresa"><a href="https://play.google.com/store?hl=pt_BR&gl=US"><img src="./assets/logoempresas/playstore.png"></a></li>
+          <li id="itemempresa"><a href="https://store.steampowered.com/games/?l=brazilian"><img src="./assets/logoempresas/steam.png"></a></li>
         </ul>
         <ul id="empresa"> 
-          <li><a href="https://store.steampowered.com/games/?l=brazilian"></a><img src="./assets/logoempresas/riot.png"></li>
-          <li><a href=""><img src="./assets/logoempresas/lol.png"</a></li>
+          <li id="itemempresa" ><a href="https://store.steampowered.com/games/?l=brazilian"></a><img src="./assets/logoempresas/riot.png"></li>
+          <li id="itemempresa"><a href=""><img src="./assets/logoempresas/lol.png"</a></li>
         </ul>
        </div>
 
        
     </main> 
     <footer>
-        <div id="rodape">
-         <ul id="rodape">
+      <div class="footer">
+        <div class="rodape">
+          <ul id="rodape">
             <li>consoles</li>
             <li>novidades</li>
             <li>review</li>
             <li>comunidade</li>
           </ul>
         </div>
-       <div id="rodaimg">
-         <p id="rodape2">Nosas redes</p>
-         <img src="./assets/redessociais.png">
-         <p id="rodape2"> Desenvolvido por Equipe Meta 2021</p>
-       </div> 
-      </footer>
+        <div class="rodaimg">
+          <ul id="rodape2">
+            <li>Nosas redes</li>
+            <li id="rodape2"> <img id="redesociais" src="./assets/redessociais.png"></li>
+            <li id="rodape2"> Desenvolvido por Equipe Meta 2021</li>
+          </ul>  
+        </div> 
+      </div>  
+    </footer>
   </body>
 </html>  
