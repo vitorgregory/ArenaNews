@@ -28,6 +28,9 @@ header{
   background: #00334F;
 
   }
+  h1{
+    color: white;
+  }
 
 nav{
   position:absolute;
