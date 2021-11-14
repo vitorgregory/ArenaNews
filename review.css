@@ -17,7 +17,12 @@ header{
   height: 64px;
 }
 
-
+.analises{
+	margin: 70px 0 0 600px;
+  }
+  #img{
+    margin-top:30px; 
+  }
 
 
 footer{
@@ -50,5 +55,85 @@ footer .rodape2 ul li{
 	padding: 5px;
 	margin-right: 70%;
 }
+main{
+  max-width: 500px;
+  margin-top: 150px;
+  color: white;
+  }
 
-.main{}
+
+header{
+  padding: 0 0;
+}  
+
+#logo{
+  float: left;
+  position: relative;
+  left: 10%;
+  right: 80%;
+  height: 64px;
+}
+
+.container{
+  position: fixed;
+  width: 100%;
+	margin: 0 auto;
+  height: 64px;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+  background: #00334F;
+}
+
+nav{
+  position:absolute;
+  left: 50%;
+  right: 40px;
+	top:0px;
+	text-align: center;
+  }
+
+nav li{
+  display: inline-block;
+  margin: 10px 0 0 0px;
+}
+
+nav a{
+  display: block;
+  flex-direction:row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  left: 70%;
+  right: 50%;
+  top: 0%;
+  bottom: 0%;
+  background: #00334F;
+  border: none;
+  color: #FFF;
+  text-decoration: none;
+  font-family: sans-serif;
+  margin: 0;
+  text-align: center;
+  transition: all 0.5s;
+  }
+
+nav a:hover{
+	background: #79CECE;
+  display:block;
+  }
+
+nav ul ul{
+  position: absolute;
+  min-width: 200px;
+  display: none;
+  background: #00334F;
+}
+nav ul ul li{
+  display: block;
+  background: #00334F;
+}
+
+nav ul li:hover ul{
+  display:block;
+}
