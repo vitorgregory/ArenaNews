@@ -5,62 +5,6 @@ body{
 	padding: 0;
   }
 
-header{
-  padding: 0 0;
-}  
-
-#logo{
-  float: left;
-  position: relative;
-  left: 10%;
-  right: 80%;
-  height: 64px;
-}
-
-.analises{
-	margin: 70px 0 0 600px;
-  }
-  #img{
-    margin-top:30px; 
-  }
-
-
-footer{
-  background-color: #00334F;
-	height: 150px;
-	margin: 0 0 0 0;
-}  
-
-footer .rodape{
-  float: left;
-  width: 40%;
-  margin: 20px 0 0 30px;
-}
-
-footer .rodape a {
-	text-decoration: none;
-	color: #FFF;
-}
-
-footer .rodape2 {
-	float: right;
-	width: 60%;
-	margin-top: -50px;
-
-}
-
-footer .rodape2 ul li{
-	color: #fff;
-	text-align: center;
-	padding: 5px;
-	margin-right: 70%;
-}
-main{
-  max-width: 500px;
-  margin-top: 150px;
-  color: white;
-  }
-
 
 header{
   padding: 0 0;
@@ -137,3 +81,47 @@ nav ul ul li{
 nav ul li:hover ul{
   display:block;
 }
+.analises{
+	margin: 70px 0 0 600px;
+  }
+  #img{
+    margin-top:30px; 
+  }
+
+
+footer{
+  background-color: #00334F;
+	height: 150px;
+	margin: 0 0 0 0;
+}  
+
+footer .rodape{
+  float: left;
+  width: 40%;
+  margin: 20px 0 0 30px;
+}
+
+footer .rodape a {
+	text-decoration: none;
+	color: #FFF;
+}
+
+footer .rodape2 {
+	float: right;
+	width: 60%;
+	margin-top: -50px;
+
+}
+
+footer .rodape2 ul li{
+	color: #fff;
+	text-align: center;
+	padding: 5px;
+	margin-right: 70%;
+}
+main{
+  max-width: 500px;
+  margin-top: 150px;
+  color: white;
+  }
+

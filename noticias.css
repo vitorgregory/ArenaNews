@@ -1,9 +1,14 @@
+html {
+	scroll-behavior: smooth;
+}
+
+
 body{
   font-family: 'Roboto', 'sans-serif';
 	background-color: #4E646A;
 	margin: 0;
 	padding: 0;
-  }
+}
 
 header{
   padding: 0 0;
@@ -59,12 +64,12 @@ nav a{
   margin: 0;
   text-align: center;
   transition: all 0.5s;
-  }
+}
 
 nav a:hover{
 	background: #79CECE;
   display:block;
-  }
+}
 
 nav ul ul{
   position: absolute;
@@ -79,6 +84,11 @@ nav ul ul li{
 
 nav ul li:hover ul{
   display:block;
+}
+
+main {
+	width:100%;
+	text-align:center;
 }
 
 footer{
@@ -112,10 +122,6 @@ footer .rodape2 ul li{
 	margin-right: 70%;
 }
 
-main {
-	width:100%;
-	text-align:center;
-}
 
 #label{
 	width:270px;
@@ -131,18 +137,20 @@ main {
 	padding: 10px;
 	font-size: 36px;
 	align-content: center;
-	
-	
 }
 
 .noticias{
+	position: relative;
 	max-width: 600px; 
 	align-content: center;
 	margin: auto;
+  max-height: auto;
 }
 
-.noticias .article{
+
+.article{
 	margin-top: 30px;
+  max-height: 50%;
 
 }
 .noticias .article img{
@@ -156,7 +164,7 @@ main {
 }
 
 .noticias .article h2{
-	position: relative;
+	position: relative,;
 	align-content: center;
 	width: 600px;
 	height: 59px;
@@ -176,7 +184,7 @@ main {
 
 }
 .noticias .article p{
-	position: absolute;
+	position: relative;
 	width: 500px;
 	height: auto;
 	left: auto;
@@ -197,4 +205,3 @@ main {
 
 }
 
-.noticias 

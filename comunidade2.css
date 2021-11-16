@@ -1,6 +1,53 @@
+html {
+	scroll-behavior: smooth;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto;
+	}
+}
+
+body{
+  font-family: 'Roboto', 'sans-serif';
+	background-color: #4E646A;
+	margin: 0;
+	padding: 0;
+  }
+
 header{
   padding: 0 0;
 }  
+
+main ul{
+	 	text-decoration: none;
+
+}
+main ul li {
+  max-height: 100%;
+  text-align: center;
+	text-decoration: none;
+
+}
+.img{
+  margin-left: 500px;
+	align-content: center;
+}
+
+.coment{
+  color: white;
+  background-color: black;
+  height: 25px;
+  width: 300px;
+  text-align: left;
+  border-radius: 25px;
+ 	text-decoration: none;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left: 500px;
+	padding: 20px;
+ }
+
 
 #logo{
   float: left;
@@ -74,6 +121,7 @@ nav ul li:hover ul{
   display:block;
 }
 
+
 footer{
   background-color: #00334F;
 	height: 150px;
@@ -105,7 +153,3 @@ footer .rodape2 ul li{
 	margin-right: 70%;
 }
 
-.img{
-  width: 300px;
-  margin-top: 50px;
-}
