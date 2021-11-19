@@ -20,6 +20,7 @@ header{
 
 .container{
   position: fixed;
+  z-index: 10;
   width: 100%;
 	margin: 0 auto;
   height: 64px;
@@ -82,10 +83,14 @@ nav ul li:hover ul{
   display:block;
 }
 .analises{
-	margin: 70px 0 0 600px;
+	margin: 10px auto;
+  font-size: 50px;
   }
-  #img{
-    margin-top:30px; 
+  .img{
+    margin-top:100px; 
+    border-radius: 30px;
+    height: 400px;
+    width:  500px;
   }
 
 

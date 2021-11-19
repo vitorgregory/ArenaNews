@@ -31,6 +31,7 @@ header{
   top: 0px;
   border-radius: 0px;
   background: #00334F;
+	z-index: 10;
 }
 
 nav{

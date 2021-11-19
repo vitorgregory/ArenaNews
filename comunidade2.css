@@ -19,15 +19,8 @@ header{
   padding: 0 0;
 }  
 
-main ul{
-	 	text-decoration: none;
-
-}
-main ul li {
-  max-height: 100%;
-  text-align: center;
-	text-decoration: none;
-
+main {
+ display: inline-block;
 }
 .img{
   margin-left: 500px;
@@ -37,7 +30,7 @@ main ul li {
 .coment{
   color: white;
   background-color: black;
-  height: 25px;
+  height: 70px;
   width: 300px;
   text-align: left;
   border-radius: 25px;
@@ -47,7 +40,9 @@ main ul li {
   margin-left: 500px;
 	padding: 20px;
  }
-
+.com{
+  margin-bottom: 5px;
+}
 
 #logo{
   float: left;
@@ -66,6 +61,11 @@ main ul li {
   top: 0px;
   border-radius: 0px;
   background: #00334F;
+	z-index: 10;
+}
+.com{
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 nav{

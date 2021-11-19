@@ -26,6 +26,7 @@ header{
   top: 0px;
   border-radius: 0px;
   background: #00334F;
+	z-index: 10;
 }
 
 nav{
@@ -129,17 +130,17 @@ main{
   
 }
 
-.empresas{
+#empresas{
   width: 30%;
 	float: right
   }
 
-#empresa{
+.empresa{
   width: 100%;
   margin: 0 10px 30px 0; 
   display: flex;
 } 
-#itemempresa{
+.itemempresa{
   margin:0 20px 0 0;
 }
 
@@ -161,25 +162,26 @@ main{
   line-height: 100%;
   color: #FFFFFF;
 }
-.card{
+#card{
   display: inline-block;
   margin: 0 0 30px 150px;
 }
 
-#card:hover{
+.card:hover{
   background: #FFF;
   opacity: 50%;
   margin: 0px 20px 30px 0;
   border-radius: 15px;
   
 }
-.card-2{
+#card-2{
   display: inline-block;
   margin: 0 0 30px 150px;
 }
 
-#card{
+.card{
   margin: 0px 20px 30px 0;
+	width: 300px;
  }
 
 #disney{
