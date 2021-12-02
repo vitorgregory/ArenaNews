@@ -86,7 +86,6 @@ nav ul ul li{
 nav ul li:hover ul{
   display:block;
 }
-
 footer{
   background-color: #00334F;
 	height: 150px;
@@ -117,6 +116,7 @@ footer .rodape2 ul li{
 	padding: 5px;
 	margin-right: 70%;
 }
+
 
 main {
 	width:100%;
